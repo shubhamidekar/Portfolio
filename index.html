@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title> Shubham Idekar | Personal Portfolio Website </title>
+</head>
+<body>
+    <header class="header">
+        <a href="#home" class="logo">Shubham
+            <span>Idekar</span>
+        </a>
+        
+        <i class="bx bx-menu" id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#education">Education</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Home Section Design -->
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h1>Hello, <span></span></h1>
+            <h3 class="text-animation">I'm <span> </span></h3>
+            <p>Fueled by curiosity and caffeine, I engineer data to craft compelling narratives and solve complex problems. Master's student with a knack for 
+                automating workflows, building scalable systems, adept at wrangling and analyzing data, with a keen eye for design. Open to new challenges!</p>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/shubham-idekar-8231b0208/" target=”_blank”><i class='bx bxl-linkedin'></i></a>
+                <a href="https://github.com/shubhamidekar/" target=”_blank”><i class='bx bxl-github'></i></a>
+            </div>
+
+            <div class="btn-group">
+                <a href="Idekar_Shubham_Resume.pdf" download="Idekar_Shubham_Resume.pdf" class="btn">Download CV</a>
+                <a href="#contact" class="btn">Contact</a>
+            </div>
+        </div>
+
+        <div class="home-img">
+            <img src="data.avif" alt="Profile Image">
+        </div>
+    </section>
+
+
+    <!-- Education Section  -->
+
+    <section class="education" id="education">
+        <h2 class="heading">Education</h2>
+        <div class="timeline-items">
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2017-2021</div>
+                <div class="timeline-content">
+                    <h3>Bachelors in Computer Engineering</h3>
+                    <p> GPA - 3.5
+                        Coursework- Database Management Systems, Data Structures and Algorithms, Artificial Intelligence and Machine Learning </p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2019</div>
+                <div class="timeline-content">
+                    <h3> Internship - Data Analyst</h3>
+                    <ul> <li> Employed Excel and Power BI to create 12 dashboards and 25 ad hoc reports for periodic reviews, enabling managers to monitor deliverables and 
+                        resulting in 23% increase in on-time project completion </li>
+                    <li> Analyzed multi-year data trends and identified cost-saving opportunities </li> 
+                    <li> Executed Pl/SQL to implement CDC in Oracle, delivering solution to meet business requirements </li> 
+                    <li> Communicated data insights into clear and concise manner to technical and non-technical stakeholders for business initiatives </li> </ul>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2021</div>
+                <div class="timeline-content">
+                    <h3> Business Analyst </h3>
+                    <ul> <li> Optimized data pipelines using ADF and Power Automate, streamline reporting by 32% to enable real-time decision-making for stakeholders </li>
+                    <li> Led migration to centralized Azure Synapse data warehouse, integrated 15+ disparate sources using Spark to enable enterprise-wide analytics </li>
+                    <li> Partnered with QA to develop 10+ comprehensive use case scenarios and guide UAT process </li>
+                    <li> Conducted process mapping and gap analysis using Power BI to improve efficiency and implement KPIs </li> </ul>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2021</div>
+                <div class="timeline-content">
+                    <h3> Full-time Job </h3>
+                    <ul> <li> Designed and developed batch ingestion ETL pipelines using SSIS, Python scripts for data warehousing, reducing execution time by 24% </li>
+                        <li> Spearheaded initiatives to elevate data analytics for 5000 users, employing SQL query optimization and performance tuning techniques </li>
+                        <li> Implemented Python wrapper functions to streamline REST API interactions, enhancing data retrieval and integration from web services by 25% </li>
+                        <li> Utilized T-SQL stored procedures to migrate data incrementally to cloud, using Apache Spark to transform data and load in AWS S3, reducing 
+                        reliance on legacy systems by 72% </li>
+                        <li> Monitored and optimized existing CI/CD pipelines in Agile Scrum setup, achieving 28% decrease in rollback incidents </li></ul>
+                </div>
+            </div>
+            
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2022-2024</div>
+                <div class="timeline-content">
+                    <h3> Masters in Information Systems </h3>
+                    <p> I engineer data to craft compelling narratives and solve complex problems. Master's student with a knack for 
+                        automating workflows, building scalable systems, adept at wrangling and analyzing data, with a keen eye for design. Open to new challenges! </p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Projects Section  -->
+
+    <section class="projects" id="projects">
+        <h2 class="heading">Projects</h2>
+        <div class="projects-container">
+            <a href="https://github.com/shubhamidekar/E-Commerce_Brazil-Data-Analysis-and-Visualization" target=”_blank”>
+            <div class="projects-box">
+                <div class="project-info">
+                    <h4>E-commerce Data Engineering</h4>
+                    <ul><li>Automated data fetching and refreshing using Power Automate flow to move over 2 million records from OneDrive to Azure Blob Storage</li>
+                        <li>Architected and executed 2 data transformation pipelines to migrate data to Cosmos Document DB using NoSQL API for JSON format through
+                        Azure Data Factory and using python scripts for Cosmos Graph DB using Gremlin API</li>
+                        <li>Crafted visually engaging and interactive dashboard for top 4 product categories as KPIs through e-commerce data in Power BI</li> </ul>
+                </div>
+            </div>
+            </a>
+            
+            <a href="https://github.com/shubhamidekar/E-Commerce_NLP" target=”_blank”>
+            <div class="projects-box">
+                <div class="project-info">
+                    <h4>NLP</h4>
+                    <ul><li>Implemented NLP-based data preprocessing with tokenization using Porter Stemmer library resulting in 20% reduction of irrelevant information</li> 
+                        <li>Enhanced the Multinomial Naive Bayes baseline model by using TfIDF for advanced text vectorization, achieving 94% accuracy</li> 
+                        <li>Applied CNN model with 5 layers, optimizing intricacies using ReLU for pattern recognition and softmax functions for enhanced performance, 
+                            achieving accuracy 97% ensuring performance against overfitting risks</li></ul>
+                </div>
+            </div>
+            </a>
+            
+            <a href="#">
+            <div class="projects-box">
+                <div class="project-info">
+                    <h4>Real-time Data Streaming</h4>
+                    <ul><li>Leveraged Apache Airflow to orchestrate seamless data extraction of user data in JSON format employing API requests from web, resulting in 
+                        40% increase in data ingestion efficiency and ensured 99% uptime with distributed synchronization through Apache Zookeeper</li> 
+                        <li>Organized Docker containerized setup and achieved 20% increase in data throughput efficiency using Apache Kafka for data streaming</li> 
+                        <li>Leveraged Apache Spark within multi-tech stack including Cassandra and PostgreSQL, utilizing downstream Cassandra analytics</li> </ul>
+                </div>
+            </div>
+            </a>
+            
+            <a href="https://github.com/shubhamidekar/NYC_MV-Collisions-Dimensional-Modeling-and-Visualization" target=”_blank”>
+            <div class="projects-box">
+                <div class="project-info">
+                    <h4>NYC MV Data Pipeline</h4>
+                    <ul><li>Fetched data from Google BigQuery, ensuring quality, integrity, and performed in-depth data profiling using Alteryx reducing anomalies by 30%</li>
+                        <li>Engineered dimensional data model through meticulous data cleaning, integration, and transformation with Talend Studio for ETL, loading 
+                        dimension and fact tables holding 10 million rows of data into Azure SQL Database, visualized using Power BI and Tableau</li></ul>
+                </div>
+            </div>
+            </a>
+
+            <a href="https://github.com/shubhamidekar/Customer-Churn-Prediction" target=”_blank”>
+            <div class="projects-box">
+                <div class="project-info">
+                    <h4>Churn Prediction</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem, voluptates hic temporibus ad odio culpa impedit iusto eius dicta magnam. 
+                        Labore debitis quam, iure sint harum quo laboriosam corporis itaque!</p>
+                </div>
+            </div>
+            </a>
+
+            <a href="#">
+            <div class="projects-box">
+                <div class="project-info">
+                    <h4>Anime Recommendation</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem, voluptates hic temporibus ad odio culpa impedit iusto eius dicta magnam. 
+                        Labore debitis quam, iure sint harum quo laboriosam corporis itaque!</p>
+                </div>
+            </div>
+            </a>
+
+        </div>
+    </section>
+
+
+    <!-- Contact Section  -->
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+
+        <form action="#">
+            <div class="input-group">
+                <div class="input-box">
+                    <input type="text" placeholder="Full Name">
+                    <input type="email" placeholder="Email">
+                </div>
+
+                <div class="input-box">
+                    <input type="number" placeholder="Phone Number">
+                    <input type="text" placeholder="Subject">
+                </div>
+            </div>
+
+            <div class="input-group-2">
+                <textarea name="" id="" rows="10" placeholder="Your Message"></textarea>
+                <input type="submit" value="Submit Message" class="btn">
+            </div>
+        </form>
+    </section>
+
+<!-- Footer Section  -->
+
+    <footer>
+        <div class="social">
+            <a href="#"><i class='bx bxl-linkedin'></i></a>
+            <a href="#"><i class='bx bxl-github' ></i></a>
+        </div>
+
+        <p class="copyright">
+            &copy; Shubham Idekar | All Rights Reserved
+        </p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
